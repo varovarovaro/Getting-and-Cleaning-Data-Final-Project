@@ -1,6 +1,11 @@
 #Codebook
 
 ## resulting dataset from `run_analysis.R`
+In the first column, "subject" identifies by ID number the 30 participants in the experiment.
+The second and third column, "activity" and "activitylabel", describe the six different activities done in the experiment: by number and by description. The following variables describe different indicators.
+
+For more information regarding the experiment please read: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The resulting dataset has includes the following variables.
 *  subject
 *  activitylabel
@@ -88,6 +93,7 @@ The resulting dataset has includes the following variables.
 
 ## `tidydata.txt`
 The `tidydata.txt` includes three types of variables.
+
 1. In the first column, "subject" identifies by ID number the 30 participants in the experiment.
 2. The second and third column, "activity" and "activitylabel", describe the six different activities done in the experiment: by number and by description.
-3. The following columns describe the mean value of each variable in accordance to the corresponding subject and activity.
+3. The following columns describe the mean value of each variable in accordance to the corresponding subject and activity. This variables are the ones described in the previous dataset.
